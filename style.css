@@ -15,9 +15,11 @@ header p {
     font-weight: bold;
     font-size: large;
     text-align: center;
+    color:rgb(98, 36, 230);
 }
 
-#data-attributes {
-    display: block;
-    
+.timer {
+   text-align: right;
 }
+
+
