@@ -1,10 +1,5 @@
-var startButton 
+document.querySelector("#start-quiz").addEventListener("click", function() {
 
+    window.location.href = "./index.html";
+});
 
-buttonClass.addEventListener("click", startButton);
-
-function startButton() 
-//document.getElementById("start-quiz")
-
-
-console.log(buttonClass);

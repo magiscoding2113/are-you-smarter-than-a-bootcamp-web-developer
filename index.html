@@ -11,13 +11,34 @@
 <header>
 <h1 class="all-capsfont">Are You Smarter Than A Bootcamp Web Developer?!</h1>
 <p>Welcome To Are You Smarter Than A Bootcamp Web Developer?! Take this short interactive quiz to test your skills!</p>
-<button class="start-quiz">Start</button>
+
+<button class="start-quiz" id="start-quiz">Start</button>
 </header>
 
 <section class="question1">
+  <display></display>
   <h2 class= "question">What is a proper example of nesting?</h2>
   <ul class="answers">
     <li data-attributes="nesting">&lt;p&gt;my favorite &lt;strong&gt; color &lt; &apos;strong&gt; is blue.&lt;p&gt;</li>
+  <li data-attributes="nesting1">&lt;p my favorite color is blue/&gt;</li>
+  <li data-attributes="nesting2">&lt;p&gt;my favorite&lt;strong&gt;color is blue&lt;/p&gt;&lt;/strong&gt;</li>
+  <div class= "1isthecorrectanswer"></div>
+  </ul>
+
+  <h3 class="question2">What does CSS stand for?</h3>
+  <ul class="answers1">
+    <li data-attributes="css-ques">Character Selector Sheet</li>
+    <li data-attributes="css-ques1">Cascading Style Sheet</li>
+    <li data-attributes="css-ques2">Coding Super Sheet</li>
+    <div class="2iscorrect"></div>
+  </ul>
+
+  <h3 class="question3">How do you declare a variable?</h3>
+  <ul class="answers2">
+    <li data-attributes="jsquest">Variable</li>
+    <li data-attributes="jsquest1">var = name; </li>
+    <li data-attributes="jsquest2">var name = firstName </li>
+    <div class="answeris2"></div>
   </ul>
 
 
@@ -25,12 +46,12 @@
 
 </section>
 
-</section>
+
 
 
 <script src="script.js"></script>
 </body>
-<!--question #1 add data attributes and style of display none/block to show 1 question at a time will add divs to add high scores via JS-->
+
 
 
 
